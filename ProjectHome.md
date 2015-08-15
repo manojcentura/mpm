@@ -1,0 +1,6 @@
+Main Phase Modeling is an efficient technique to model 2D elastic wave propagation of selected seismic phases.
+The basic idea is that the wavefield is only computed in a moving zone embracing the wave front segment under concern. Two growing challenges in seismic full wavefield modeling are addressed by this technique. Firstly computational load may be reduced significantly without significant loss in quality. Secondly, the complexity in wavefields may be analyzed by separating into phases. Only moderate modifications are required to implement this technique in a given time-space domain finite difference code.
+
+The movement of the box which must be given prior to modeling, may be derived more or less accurately from low frequency finite difference modeling or from ray tracing.Tests in 2-D demonstrate significant reduction in memory requirements and computer time at only moderate reduction in accuracy. Extension to 3-D wavefield computation and analysis is straight forward.
+
+For e.g. wide angle simulations this method is very effective. For example the method enables modeling of primary crustal phases from wide angle crustal size models on as of today conventional work stations, like a Pentium 400 MHz with 128 Mb RAM.
